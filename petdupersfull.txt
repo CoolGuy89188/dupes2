@@ -51,6 +51,6 @@ game:GetService("RunService").RenderStepped:Connect(function()
         game:GetService("ReplicatedStorage").Remotes.DigEvent:FireServer("hello")
     end
     if finalpet then
-        game:GetService("ReplicatedStorage").Remotes.PetCageEvent:FireServer("Void ouroboros")
+        game:GetService("ReplicatedStorage").Remotes.PetCageEvent:FireServer("Void Ouroboros")
     end
 end)
